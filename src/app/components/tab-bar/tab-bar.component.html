@@ -1,0 +1,10 @@
+
+<div class="flex justify-center items-center gap-4 p-2 rounded-full bg-slate-900">
+  <div class="text-white p-2 rounded-full cursor-pointer transition-all"
+    [class.bg-teal-600]="option === optionSelected"
+    *ngFor="let option of options"
+  >
+    <span (click)="selectOption(option)"> {{ option }} </span>
+  </div>
+</div>
+

@@ -1,0 +1,6 @@
+.container-timer {
+  border-radius: 50%;
+  background: #0F172A;
+  box-shadow:  14px 14px 40px #0b111e,
+              -14px -14px 40px #1E293B;
+}
